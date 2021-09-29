@@ -29,7 +29,7 @@ public class DBUtil {
     public static Connection getConnection() throws SQLException {
         String url="jdbc:mysql://127.0.0.1:3306/teacher_salary";
         String user="root";
-        String password="200228";
+        String password="123456";
         Connection conn= DriverManager.getConnection(url,user,password);
         return conn;
     }
